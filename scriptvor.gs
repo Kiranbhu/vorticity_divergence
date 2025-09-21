@@ -1,0 +1,11 @@
+'reinint'
+'open /home/kiran/Vort_div/vorticity.ctl'
+'set lon 66.5 100'
+'set lat 6.5 37.5'
+* plot divergence
+'set grads off'; 'set grid off'
+'set mpdset hires'; 'set map 15 1 1'
+'set gxout shaded'
+'d vort'
+'draw title vorticity August, 2023'
+'printim vorticity_plot.png png'
